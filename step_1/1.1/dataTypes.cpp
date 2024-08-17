@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//https://www.geeksforgeeks.org/problems/data-type-1666706751/1
 int dataTypeSize(string str)
 {
     if (str == "Character")
