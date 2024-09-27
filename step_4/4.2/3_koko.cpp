@@ -34,7 +34,7 @@ int minEatingSpeed(vector<int> &piles, int h)
     while (s <= e)
     {
         int t = 0;
-        int mid = e + (s - e) / 2;
+        int mid = s + (e - s) / 2;
         //calculate total time taken by k=mid
         for (auto it : piles)
         {
